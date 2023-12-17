@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медіа-сторінка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaeaea;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .media-item {
+            margin-bottom: 20px;
+        }
+
+        .media-item img {
+            width: 200px;
+        }
+        .media-item video {
+            margin: 0 auto;
+            width: 600px;
+
+        }
+
+        .media-item audio {
+            width: 100%;
+        }
+
+        p {
+            font-weight: bold;
+            margin-top: 10px;
+           
+            border-bottom: 3px dotted black;
+            max-width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div class="media-item">
+        <img src="./iphon15.png.webp" alt="Зображення">
+        <div><p>The new Iphone 15 Pro</p></div>
+    </div>
+
+    <hr>
+
+    <div class="media-item">
+        <video controls>
+            <source src="./HTML_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div><p>abbr for HTML</p></div>
+    </div>
+
+    
+
+    <div class="media-item">
+        <audio controls>
+            <source src="./sample-12s.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div><p>12-second melody using flute and whole drum ensemble</p></div>
+    </div>
+</div>
+
+</body>
+</html>
