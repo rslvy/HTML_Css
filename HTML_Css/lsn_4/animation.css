@@ -1,0 +1,129 @@
+/* 1-селектор по всіх тегах */
+*{
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+    
+}
+
+/* 2-селектор перелічування */
+div, span {
+    margin: 30px;
+}
+/* 3-селектор по класу */
+.navigation {
+    list-style: none;
+    display: flex;
+    
+}
+
+/* 4-селектор по тегу */
+li {
+    margin: 15px 5px;
+    padding: 15px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 6px 0 #5e5373;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    transition: 0.5s;
+   }
+
+.navigation li:hover{
+    transform: translate(0, 10%);
+    box-shadow: 0 3px 0 rgb(71, 69, 69);
+    background-color: #65d734c7;
+
+   }
+
+.navigation a{ 
+    color: azure;
+    text-decoration: none;
+   }
+   
+
+
+.figure_1{
+
+    display: block;
+
+    width: 200px;
+    background-color: red;
+    height: 100px;
+    margin-left: 30px;
+    /* transition: .5s */
+}
+
+.figure_1:hover{
+    background-color: blue;
+    /* transition: .5s; */
+}
+
+/* 5-селектор вкладеність */
+div .circle{
+    width: 0;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: wheat;
+    transition-duration: 1s;
+}
+
+.circle:hover{
+    transform: translate(200%, 0);
+    background-color: black;
+}
+
+@keyframes changes {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+}
+
+/* 6-селектор по айді */
+#figure_3{
+    animation: changes 2s infinite;
+    /* padding: 30px;
+    background-color: #b42525; */
+}
+
+.figure_4{
+
+    width: 200px;
+    background-color: rgb(213, 77, 207);
+    height: 200px;
+    margin-left: 30px;
+    transition: .5s
+}
+
+.figure_4:hover{
+    background-color: blue;
+    transition: 1s;
+}
+
+.block{
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    background-color: #623b1f;
+    transition: 1s;
+    transform-origin: 20px 20px;
+}
+.block:hover{
+    transform: rotate(-30deg);
+}
