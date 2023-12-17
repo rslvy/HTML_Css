@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+    background-color: #edadad;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.navigation_list{
+    margin: 0 auto;
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    
+}
+.navigation_list_item{
+    padding: 1rem 2%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(161, 187, 222);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.navigation_list_item a{
+    text-decoration: none;
+    color: #333;
+}
+
+.container{
+    width: 70%;background-color: #bcafaf;
+    margin: 0 auto;
+    height: 400px;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+h2{
+    padding: 20px;
+}
+.block{
+    height: 80px;
+    
+}
+.block_1{
+    background-color: #679729;
+}
+.block_2{
+    background-color: #972929;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.block_3{
+    background-color: rgb(41, 67, 151);
+}
+
+.container_relative{
+    width: 70%;background-color: #bcafaf;
+    margin: 0 auto;
+    height: 400px;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.container_relative .block_1{
+    background-color: #679729;
+}
+.container_relative .block_2{
+    background-color: #972929;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.container_relative .block_3{
+    background-color: rgb(41, 67, 151);
+}
+
+
+.container_relative_zindex{
+    width: 70%;background-color: #bcafaf;
+    margin: 0 auto;
+    height: 400px;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: -2;
+}
+.container_relative_zindex .block_1{
+    background-color: #679729;
+}
+.container_relative_zindex .block_2{
+    background-color: #972929;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
+.container_relative_zindex .block_3{
+    background-color: rgb(41, 67, 151);
+}
+
+.container_fixed{
+    width: 70%;background-color: #bcafaf;
+    margin: 0 auto;
+    height: 400px;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: -2;
+}
+.container_fixed .block_1{
+    background-color: #679729;
+}
+.container_fixed .block_2{
+    background-color: #972929;
+    position: fixed;
+    left: 0;
+    top: 400px;
+    z-index: 5;
+    width: 100%;
+   
+    
+}
+.container_fixed .block_3{
+    background-color: rgb(41, 67, 151);
+}
+
+.container_fixed .block_4 {
+    position: sticky;
+    background-color: #635cbc;
+    top: 0;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+th, td {
+    border: 1px solid #c4bebe;
+    text-align: left;
+    padding: 8px;    
+}
+
+
+  
+
+th {
+    background-color: #593434;
+    color: rgb(79, 158, 0);
+}
+
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+  tbody tr:hover{
+
+    background-color: #dcd9d9;
+}
+
+tfoot {
+    font-weight: bold;
+}
+tfoot td:last-child {
+    background-color: rgb(168, 145, 211);
+
+}
+tfoot td:first-child {
+    background-color: rgb(32, 32, 33);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(173, 176, 178);
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 22px;
+
+}
+
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px; 
+    height: fit-content;
+    min-height: 400px;
+}
+
+
+.box {
+    margin-bottom: 30px;
+    border: 4px solid #434242;
+    padding: 10px; 
+    height: fit-content;
+}
+.boxer_1{
+    background-color: #87ffcb; 
+    margin-left: 40%;
+}
+.boxer_2{
+    background-color: #ff6d6d;
+    margin-right: 40%;
+}
+.boxer_3{
+    background-color: #7186ff;
+    margin-left: 40%;
+}
+
+.typesofblocks{
+    padding: 50px;
+}
+.typesofblocks span {
+    color: blue; 
+    font-style: italic;
+    padding: 10px;
+    background-color: #b1b1b1;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.block_cont{
+    margin-top: 50px;
+    
+}
+.block_cont div {
+    
+    background-color: lightgray; 
+    border: 3px solid darkgray;
+    margin-bottom: 10px; 
+    padding: 10px; 
+}
+
+
+.main_media {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.media-item {
+    margin-bottom: 20px;
+    
+}
+
+.media-item img {
+    width: 200px;
+}
+.media-item video {
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 60px;
+}
+.media-item{
+    margin-top: 20px;
+
+}
+
+.media-item audio {
+    width: 100%;
+}
+
+.main_media p {
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 3px dotted black;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    
+
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links li {
+    margin: 15px 30px;
+    padding: 15px 20px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 6px 0 #5e5373;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+   }
+
+.links li:hover{
+    transform: translate(0, 10%);
+    box-shadow: 0 3px 0 rgb(71, 69, 69);
+    background-color: rgba(147, 52, 215, 0.78);
+
+   }
+.links a{ 
+    color: azure;
+    text-decoration: none;
+}
+   
+
+
+.texts h3 { 
+    color: #ff4411; 
+    font-size: 48px; 
+    font-family: 'Signika', sans-serif; 
+    padding-bottom: 10px; 
+}
+
+
+.texts p { 
+    font-family: 'Inder', sans-serif; 
+    line-height: 28px; 
+    margin-bottom: 15px; 
+    color: #666; 
+}
+
+
+.texts a { 
+    color: #ff4411;
+    transition: .5s; }
+
+
+.texts a:hover { 
+    color: #a03c21 
+}
+
+
+.date { 
+    float: left 
+}
+
+
+.author { float: right }
+
+
+.entry-content { 
+    border-bottom: 3px solid #666;
+    padding: 0 0 15px 0; 
+    margin-bottom: 8px; }
+
+
+
+.texts{
+    width: 80%;
+    margin: 0 auto;
+}
