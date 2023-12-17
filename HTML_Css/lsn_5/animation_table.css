@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+    
+}
+
+span {
+    margin: 30px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    margin: 15px 30px;
+    padding: 15px 50px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 6px 0 #5e5373;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    transition: 0.5s;
+   }
+
+.navigation li:hover{
+    transform: translate(0, 10%);
+    box-shadow: 0 3px 0 rgb(71, 69, 69);
+    background-color: #65d734c7;
+
+   }
+.navigation a{ 
+    color: azure;
+    text-decoration: none;
+   }
+.first table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.UNI th, td {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    transition: 1s;
+    text-align: left;
+} 
+
+.UNI tfoot tr td{
+    background-color: black;
+    color: #f4f4f4;
+    font-family: cursive;  
+} 
+
+ #Websites{
+    background-color: black;
+}
+
+.UNI tbody > tr:hover{
+    background-color: yellow;
+} 
+
+ .UNI thead:first-child{
+    background-color: rgb(130, 47, 47);
+    color: rgb(255, 255, 255); 
+}
+
+.UNI th:first-child{
+    background-color: rgb(130, 47, 47);
+    color: white;
+}
+
+
+
+
+h1, h2{
+    text-align: center;
+    margin: 20px;
+}
+
+
+sub{
+    font-size: 0.5rem;
+}
+
+.plans th, td {
+    border: 1px solid black;
+    padding: 1.5rem;
+    text-align: center;
+    transition: 1s;
+}
+
+.plans thead th{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+}
+
+.plans tbody > tr:nth-child(2n+1){
+    background-color: #dfdcdc;
+
+}
+
+.plans  { 
+    border-collapse: separate;
+    width: 60%;
+    border: 3px solid black;
+    border-top: 20%;
+    margin: 20px auto;
+    border-spacing: 0;
+    border-radius: 12px;
+}
+
+.plans thead{
+    background-color: rgb(26, 26, 50);
+    color: rgb(227, 227, 227);
+    
+}
+
+.plans tfoot{
+    text-transform: uppercase;
+}
+
+.plans tfoot th:hover{
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color0.3s;
+}
+ 
+#disabled{
+    pointer-events: none;  
+}
+
+.second_body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem; 
+}
+
+.orders {
+    border-collapse: collapse;
+    border: none;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgb(152, 152, 152);  
+}
+
+.orders th{
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    border: 0px solid;
+}
+
+.orders thead{
+    box-shadow: 0 5px 15px rgb(206, 206, 206);
+    background-color: white;
+
+}
+
+.orders td{
+    border: 0px solid;
+    
+}
+
+.orders a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    background-color: #d0d0d0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.orders a:hover{
+    background-color: #b9b8b8;
+    box-shadow: 0px 3px 10px rgb(146, 146, 146);
+}
+
+.status{
+    text-align: center;
+    background-color: #c722228f;
+    border-radius: 5px;
+    padding: 0.55rem 1rem;
+    margin: 5px;
+
+
+}
+
+.status-pending{
+    background-color: rgba(255, 255, 0, 0.5);
+    color: rgb(149, 149, 37);
+}
+
+.status-unpaid{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: rgb(255, 0, 0);
+}
+
+.status-paid{
+    background-color: rgba(0, 255, 0, 0.5);
+    color: rgb(70, 115, 25);
+}
+
+.orders tr:nth-child(even){
+    background-color: #e6e6e6;
+}
