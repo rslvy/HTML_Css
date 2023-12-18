@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма фільтру</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class="navigation_list">
+                <li class="navigation_list_item"><a href="./index.html">Форма</a></li>
+                <li class="navigation_list_item"><a href="./filter.html">форма-фільтер</a></li>
+            </ul>
+        </nav>
+    </header>
+  <h1>Форма фільтру</h1>
+  <form>
+    <div>
+      <label for="product_type">Тип продукту:</label><br>
+      <select id="product_type" name="product_type">
+        <option value="телефон">Телефон</option>
+        <option value="ноутбук">Ноутбук</option>
+        <option value="пилесос">Пилесос</option>
+        <option value="зарядка">Зарядка</option>
+      </select>
+    </div>
+
+    <div class="power">
+      <label>Потужність:</label><br>
+      <input type="checkbox" id="power_15w" name="power" value="15w">
+      <label for="power_15w">15W</label><br>
+      <input type="checkbox" id="power_25w" name="power" value="25w">
+      <label for="power_25w">25W</label><br>
+      <input type="checkbox" id="power_65w" name="power" value="65w">
+      <label for="power_65w">65W</label><br>
+      <input type="checkbox" id="power_100w" name="power" value="100w">
+      <label for="power_100w">100W</label><br>
+      <input type="checkbox" id="power_200w" name="power" value="200w">
+      <label for="power_200w">200W</label>
+    </div>
+
+    <div>
+      <label>Марка:</label><br>
+      <input type="checkbox" id="brand_samsung" name="brand" value="самсунг">
+      <label for="brand_samsung">Samsung</label><br>
+      <input type="checkbox" id="brand_lg" name="brand" value="lg">
+      <label for="brand_lg">LG</label><br>
+      <input type="checkbox" id="brand_asus" name="brand" value="asus">
+      <label for="brand_asus">Asus</label><br>
+      <input type="checkbox" id="brand_lenovo" name="brand" value="lenovo">
+      <label for="brand_lenovo">Lenovo</label>
+    </div>
+
+    <div>
+      <label for="sorting">Сортування:</label> <br>
+      <select id="sorting" name="sorting">
+        <option value="дешеві">Від дешевих</option>
+        <option value="дорогі">Від дорогих</option>
+        <option value="рейтинг">По рейтингу</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="model_name">Назва моделі:</label><br>
+      <input type="text" id="model_name" name="model_name">
+    </div>
+
+    <div class="filter">
+      <input type="submit" value="Фільтрувати">
+    </div>
+    
+  </form>
+  <div class="frame">
+    <iframe src="./smth.html" width="800px" height="500px" ></iframe>
+  </div>      
+</body>
+</html>

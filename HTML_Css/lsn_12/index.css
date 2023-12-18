@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    padding: 10px;
+    background-color: #edadad;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.navigation_list{
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px;
+    
+}
+.navigation_list_item{
+    padding: 1rem 2%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(161, 187, 222);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.navigation_list_item a{
+    text-decoration: none;
+    color: #333;
+}
+h1{
+    padding: 10px  25px;
+}
+
+fieldset{
+    border-radius: 18px;
+    border: 3px solid rgb(196, 196, 196);
+}
+legend{
+    display: block;
+    padding-inline-start: 6px;
+    padding-inline-end: 6px;
+}
+form{
+    width: 400px;
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px #CCC; 
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    
+}
+
+form div{
+    margin: 8px 0;
+}
+
+
+fieldset {
+    padding-inline-start: 1.5em;
+    padding: 32px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    border: none;
+    width: 80%;
+    padding: 5px 8px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    color: rgb(62, 62, 62);
+    letter-spacing: 1.5px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+    border-bottom: 2px solid rgb(111, 111, 111);
+}
+
+label{
+    text-transform: uppercase;
+    color: #7d7d7d;
+    font-size: 11px;
+}
+
+input[type="date"] {
+    padding: 5px 3px;
+    margin-top: 10px;
+    color: rgb(101, 101, 101);
+    letter-spacing: 1.5px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    outline:0px none transparent;
+
+    
+}
+
+input[type="submit"]{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+ background-color: rgb(243, 157, 243);
+
+}
+textarea{
+    width: 80%;
+    height: 50px;
+    outline:0px none transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+textarea:focus{
+    box-shadow: 0px 0px 6px rgb(229, 134, 134);
+    border: 1px solid rgb(152, 152, 152); 
+}
+
+input[type="date"]:focus{
+    box-shadow: 0px 0px 6px rgb(229, 134, 134);
+}
+
+
+input[type="submit"]:active{
+    box-shadow: 2px -2px 5px rgb(107, 107, 107);
+
+}
+select{
+    outline:0px none transparent;
+    border-radius: 15px;
+    margin-top: 6px;
+    padding: 2px 5px;
+}
+
+select:focus{
+    outline:0px none transparent;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.frame{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+iframe{
+    border: 2px dashed black;
+}
+

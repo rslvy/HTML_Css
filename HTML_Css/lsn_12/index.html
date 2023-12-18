@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма реєстрації</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+        <ul class="navigation_list">
+            <li class="navigation_list_item"><a href="./index.html">Форма</a></li>
+            <li class="navigation_list_item"><a href="./filter.html">форма-фільтер</a></li>
+        </ul>
+    </nav>
+</header>
+  <form>
+
+    <fieldset>
+      <legend>Форма реєстрації</legend>
+      <div>
+        <label for="name">Ім'я</label> <br>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div>
+        <label for="password">Пароль</label> <br>
+        <input type="password" id="password" name="password">
+      </div>
+
+      <div>
+        <label for="confirm_password">Повторіть пароль</label><br>
+        <input type="password" id="confirm_password" name="confirm_password">
+      </div>
+
+      <div>
+        <label for="dob">Дата народження</label><br>
+        <input type="date" id="dob" name="dob">
+      </div>
+
+      <div>
+        <label for="gender">Стать</label> <br>
+        <input type='radio' name='gender' value= 'male'> Чоловіча <br>
+        <input type='radio' name='gender' value='female'> Жіноча <br>
+        <input type='radio' name='gender' value='other'> Інше
+      </div>
+
+      <div>
+        <label for="age">Вік</label> <br>
+        <input type="number" id="age" name="age">
+      </div>
+
+      <div class="description">
+        <label for="description">Опис</label> <br>
+        <textarea id="description" name="description"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Відправити">
+      </div>
+  </fieldset>
+  </form>
+</body>
+</html>
